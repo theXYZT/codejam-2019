@@ -8,8 +8,25 @@ My solutions to [Codejam 2019 problems](https://codingcompetitions.withgoogle.co
 
 ## Qualification Round
 
-1. [**Foregone Solution**](https://github.com/theXYZT/codejam-2018/blob/master/Qualification%20Round/saving-the-universe-again.py)  
-2. [**You Can Go Your Own Way**](https://github.com/theXYZT/codejam-2018/blob/master/Qualification%20Round/trouble-sort.py)
-3. [**Cryptopangrams**](https://github.com/theXYZT/codejam-2018/blob/master/Qualification%20Round/go-gopher.py)  
-4. [**Dat Bae**](https://github.com/theXYZT/codejam-2018/blob/master/Qualification%20Round/cubic-ufo.py)  
+1. [**Foregone Solution**](https://github.com/theXYZT/codejam-2019/blob/master/Qualification%20Round/foregone-solution.py)  
+2. [**You Can Go Your Own Way**](https://github.com/theXYZT/codejam-2019/blob/master/Qualification%20Round/you-can-go-your-own-way.py)  
+3. [**Cryptopangrams**](https://github.com/theXYZT/codejam-2019/blob/master/Qualification%20Round/cryptopangrams.py)  
+4. [**Dat Bae**](https://github.com/theXYZT/codejam-2019/blob/master/Qualification%20Round/dat-bae.py)  
 
+## Round 1A
+
+1. [**Pylons**]()  
+2. [**Golf Gophers**]()  
+3. **Alien Rhyme**  
+
+## Round 1B
+
+1. [**Manhattan Crepe Cart**]()  
+2. [**Draupnir**]()
+3. **Fair Fight**  
+
+## Round 1C
+
+1. [**Robot Programming Strategy**]()  
+2. [**Power Arrangers**]()  
+3. **Bacterial Tactics**  
