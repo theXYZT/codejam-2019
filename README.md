@@ -15,18 +15,18 @@ My solutions to [Codejam 2019 problems](https://codingcompetitions.withgoogle.co
 
 ## Round 1A
 
-1. [**Pylons**]()  
-2. [**Golf Gophers**]()  
+1. [**Pylons**](https://github.com/theXYZT/codejam-2019/blob/master/Round%201A/pylons.py)  
+2. [**Golf Gophers**](https://github.com/theXYZT/codejam-2019/blob/master/Round%201A/golf-gophers.py)  
 3. **Alien Rhyme**  
 
 ## Round 1B
 
-1. [**Manhattan Crepe Cart**]()  
-2. [**Draupnir**]()
+1. [**Manhattan Crepe Cart**](https://github.com/theXYZT/codejam-2019/blob/master/Round%201B/manhattan-crepe-cart.py)  
+2. [**Draupnir**](https://github.com/theXYZT/codejam-2019/blob/master/Round%201B/draupnir.py)
 3. **Fair Fight**  
 
 ## Round 1C
 
-1. [**Robot Programming Strategy**]()  
-2. [**Power Arrangers**]()  
+1. [**Robot Programming Strategy**](https://github.com/theXYZT/codejam-2019/blob/master/Round%201C/robot-programming-strategy.py)  
+2. [**Power Arrangers**](https://github.com/theXYZT/codejam-2019/blob/master/Round%201C/power-arrangers.py)  
 3. **Bacterial Tactics**  
