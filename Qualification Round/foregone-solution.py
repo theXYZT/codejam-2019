@@ -1,4 +1,4 @@
-# Codejam 2019, Qualification: Foregone Solution
+# Codejam 2019, Qualification Round: Foregone Solution
 
 def split_number(N):
     A = int(str(N).replace('4', '2'))
