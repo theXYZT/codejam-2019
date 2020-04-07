@@ -3,18 +3,20 @@
 from math import gcd
 import string
 
+
 def single_pass(primes, cipher):
     """Goes through cipher solving for primes from left to right."""
     for i, p in enumerate(primes):
         if not p:
-            if i == 0 and primes[i+1]:
-                primes[i] = cipher[i+1] // primes[i+1]
-            elif i == L - 2 and primes[i-1]:
-                primes[i] = cipher[i] // primes[i-1]
-            elif 0 < i < L - 2 and primes[i-1]:
-                if primes[i-1]:
-                    primes[i] = cipher[i] // primes[i-1]
+            if i == 0 and primes[i + 1]:
+                primes[i] = cipher[i + 1] // primes[i + 1]
+            elif i == L - 2 and primes[i - 1]:
+                primes[i] = cipher[i] // primes[i - 1]
+            elif 0 < i < L - 2 and primes[i - 1]:
+                if primes[i - 1]:
+                    primes[i] = cipher[i] // primes[i - 1]
     return primes
+
 
 def decipher(cipher, N, L):
     """Deciphers given ciphertext."""
@@ -42,6 +44,7 @@ def decipher(cipher, N, L):
     # Generate dictionary and return deciphered text
     dictionary = dict(zip(sorted(set(primes)), string.ascii_uppercase))
     return "".join([dictionary[i] for i in primes])
+
 
 # I/O Code
 num_cases = int(input())

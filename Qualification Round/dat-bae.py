@@ -10,8 +10,9 @@ for case in range(1, num_cases + 1):
     F = B.bit_length() + 1
 
     # Silly way to generate worker queries
-    worker_inputs = [format(i % 2**F, '#0{}b'.format(F+2))[2:]
-                     for i in range(N)]
+    worker_inputs = [
+        format(i % 2**F, '#0{}b'.format(F + 2))[2:] for i in range(N)
+    ]
     queries = ["".join([s[i] for s in worker_inputs]) for i in range(F)]
 
     # Save responses
@@ -19,7 +20,7 @@ for case in range(1, num_cases + 1):
     for q in queries:
         print(q, flush=True)
         responses.append(input())
-    worker_outputs = ["".join([r[i] for r in responses]) for i in range(N-B)]
+    worker_outputs = ["".join([r[i] for r in responses]) for i in range(N - B)]
 
     # Iterate through responses in order to find broken workers
     broken = []

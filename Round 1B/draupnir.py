@@ -2,6 +2,7 @@
 
 import sys
 
+
 def get_initial_rings():
     """Find no. of initial rings using two hand-crafted queries."""
     Rs = [0, 0, 0, 0, 0, 0]
@@ -16,7 +17,7 @@ def get_initial_rings():
 
     print(56, flush=True)
     num_rings = int(input())
-    num_rings -= Rs[3]*2**14 + Rs[4]*2**11 + Rs[5]*2**9
+    num_rings -= Rs[3] * 2**14 + Rs[4] * 2**11 + Rs[5] * 2**9
     Rs[2] = (num_rings % 2**28) // 2**18
     num_rings -= Rs[2] * (2**18)
     Rs[1] = (num_rings % 2**56) // 2**28
@@ -24,6 +25,7 @@ def get_initial_rings():
     Rs[0] = num_rings // 2**56
 
     return Rs
+
 
 # I/O Code
 num_cases, W = map(int, input().split())

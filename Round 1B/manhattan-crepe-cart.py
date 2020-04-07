@@ -5,22 +5,24 @@ import numpy as np
 
 Person = namedtuple("Person", ["x", "y", "D"])
 
+
 def find_cart(P, Q, persons):
     """Find crepe cart given a list of people."""
-    xs = np.zeros(Q+1)
-    ys = np.zeros(Q+1)
+    xs = np.zeros(Q + 1)
+    ys = np.zeros(Q + 1)
 
     for p in persons:
         if p.D == 'N':
-            ys[p.y+1:] += 1
+            ys[p.y + 1:] += 1
         if p.D == 'S':
             ys[:p.y] += 1
         if p.D == 'W':
             xs[:p.x] += 1
         if p.D == 'E':
-            xs[p.x+1:] += 1
+            xs[p.x + 1:] += 1
 
     return (np.argmax(xs), np.argmax(ys))
+
 
 # I/O Code
 num_cases = int(input())
