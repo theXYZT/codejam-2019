@@ -24,7 +24,7 @@ My solutions to [Google Code Jam 2019](https://codingcompetitions.withgoogle.com
 |---|---------|----------|-------|
 | A | [Pylons](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104e03) | [Solution](https://github.com/theXYZT/codejam-2019/blob/master/Round%201A/pylons.py) | |
 | B | [Golf Gophers](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104f1a) | [Solution](https://github.com/theXYZT/codejam-2019/blob/master/Round%201A/golf-gophers.py) | |
-| C | [Alien Rhyme](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104e05) | []() | |
+| C | [Alien Rhyme](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104e05) | [Solution](https://github.com/theXYZT/codejam-2019/blob/master/Round%201A/alien-rhyme.py) | |
 
 
 ## [Round 1B](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706)
