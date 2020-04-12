@@ -2,39 +2,29 @@
 
 import itertools
 
-def find_best_move(moves, robots):
-    """Find best move given moves by opponent robots."""
-    possible_moves = ['R', 'S', 'P']
+BEST_MOVE = {
+    frozenset({'R'}): 'P',
+    frozenset({'P'}): 'S',
+    frozenset({'S'}): 'R',
+    frozenset({'R', 'P'}): 'P',
+    frozenset({'P', 'S'}): 'S',
+    frozenset({'S', 'R'}): 'R',
+    frozenset({'R', 'P', 'S'}): None,
+}
 
-    # Remove losing moves
-    if 'R' in moves:
-        possible_moves.remove('S')
-    if 'S' in moves:
-        possible_moves.remove('P')
-    if 'P' in moves:
-        possible_moves.remove('R')
 
-    # Pick the move that wins instead of draws, eliminate losing robots
-    for move in possible_moves:
-        draws = [r for r, m in zip(robots, moves) if m == move]
-        if len(draws) == len(robots):
-            continue
-        else:
-            return move, draws
-
-    return None, robots
-
-def find_winning_strategy(A, robots):
-    """Finds winning strategy defeating all robots, unless impossible."""
+def find_winning_strategy(robots):
     strategy = ''
     while robots:
-        opponent_moves = [r.__next__() for r in robots]
-        move, robots = find_best_move(opponent_moves, robots)
+        robot_moves = list(r.__next__() for r in robots)
+        move = BEST_MOVE[frozenset(robot_moves)]
         if move is None:
             return None
         else:
             strategy += move
+            robots = [r for r, m in zip(robots, robot_moves) if m == move]
     return strategy
+
 
 # I/O Code
 num_cases = int(input())
@@ -45,7 +35,7 @@ for case in range(1, num_cases + 1):
     for _ in range(A):
         robots.append(itertools.cycle(input()))
 
-    strategy = find_winning_strategy(A, robots)
+    strategy = find_winning_strategy(robots)
     if strategy is None:
         strategy = 'IMPOSSIBLE'
     print('Case #{}: {}'.format(case, strategy))
