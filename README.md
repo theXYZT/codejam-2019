@@ -42,7 +42,7 @@ My solutions to [Google Code Jam 2019](https://codingcompetitions.withgoogle.com
 |---|---------|----------|-------|
 | A | [Robot Programming Strategy](https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134c90) | [Solution](https://github.com/theXYZT/codejam-2019/blob/master/Round%201C/robot-programming-strategy.py) | |
 | B | [Power Arrangers](https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134e91) | [Solution](https://github.com/theXYZT/codejam-2019/blob/master/Round%201C/power-arrangers.py) | |
-| C | [Bacterial Tactics](https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134cdf) | []() | |
+| C | [Bacterial Tactics](https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134cdf) | [Solution](https://github.com/theXYZT/codejam-2019/blob/master/Round%201C/bacterial-tactics.py) | |
 
 
 ## [Round 2](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051679)
