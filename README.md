@@ -1,6 +1,6 @@
 # Google Code Jam 2019 Solutions ![Language](https://img.shields.io/badge/language-Python%203-orange) ![License](https://img.shields.io/github/license/theXYZT/codejam-2019)
 
-My **Python 3** solutions to [Google Code Jam 2019](https://codingcompetitions.withgoogle.com/codejam/archive/2019) problems. All solutions will solve all the test sets. The solutions are written to run successfully on the Code Jam platform, which includes the following libraries:
+My **Python 3** solutions to [Google Code Jam 2019](https://codingcompetitions.withgoogle.com/codejam/archive/2019) problems that should pass all the test sets. The solutions are written to run successfully on the Code Jam platform, which includes the following libraries:
 
  * Python 3.5.3
  * Numpy 1.16.2
