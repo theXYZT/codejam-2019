@@ -52,8 +52,8 @@ Some solutions may be too slow in Python 3 and might return a "Time Limit Exceed
 
 | # | Problem | Solution | Notes |
 |---|---------|----------|-------|
-| A | [New Elements: Part 1](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051679/0000000000146183) | []() | |
-| B | [Pottery Lottery](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051679/00000000001461c8) | []() | |
-| C | [New Elements: Part 2](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051679/0000000000146184) | []() | |
+| A | [New Elements: Part 1](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051679/0000000000146183) | [Python 3](https://github.com/theXYZT/codejam-2019/blob/master/Round%202/new-elements-part-1.py) | |
+| B | [Pottery Lottery](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051679/00000000001461c8) | [Python 3](https://github.com/theXYZT/codejam-2019/blob/master/Round%202/pottery-lottery.py) | |
+| C | [New Elements: Part 2](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051679/0000000000146184) | [Python 3](https://github.com/theXYZT/codejam-2019/blob/master/Round%202/new-elements-part-2.py) | |
 | D | [Contransmutation](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051679/0000000000146185) | []() | |
 
